@@ -27,10 +27,6 @@ This is a solution to the [3 Column Preview Card Component challenge on Frontend
 
 ![screenshot](https://github.com/romila2003/3-column-preview-card-component/blob/main/Mobile%20Preview.PNG)
 
-# Tablet Preview
-
-![screenshot](https://github.com/romila2003/3-column-preview-card-component/blob/main/Tablet%20Preview.PNG)
-
 # Desktop Preview 
 
 ![screenshot](https://github.com/romila2003/3-column-preview-card-component/blob/main/Desktop%20Preview.PNG)
