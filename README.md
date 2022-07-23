@@ -25,21 +25,21 @@ This is a solution to the [3 Column Preview Card Component challenge on Frontend
 
 # Mobile Preview 
 
-![screenshot]()
+![screenshot](https://github.com/romila2003/3-column-preview-card-component/blob/main/Mobile%20Preview.PNG)
 
 # Tablet Preview
 
-![screenshot]()
+![screenshot](https://github.com/romila2003/3-column-preview-card-component/blob/main/Tablet%20Preview.PNG)
 
 # Desktop Preview 
 
-![screenshot]()
+![screenshot](https://github.com/romila2003/3-column-preview-card-component/blob/main/Desktop%20Preview.PNG)
 
 
 ### Links
 
- - Source code: [https://github.com/romila2003/Stats-Preview-Card-Component]()
- - Live website: [https://frontend-stats-preview-card-component.netlify.app/]()
+ - Source code: [https://github.com/romila2003/3-column-preview-card-component](https://github.com/romila2003/3-column-preview-card-component)
+ - Live website: [https://frontend-3-column-preview-card-component.netlify.app/](https://frontend-3-column-preview-card-component.netlify.app/)
 
 ## My process
 
