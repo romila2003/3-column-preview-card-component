@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--very-light-gray);
+    font-size: 15px;
+}
+
+.container {
+    width: 70%;
+    display: grid;
+    grid-template-columns: auto;
+    margin: 5em auto;
+    border-radius: 13px;
+    max-width: 270px;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive; 
+    text-transform: uppercase;
+    color: var(--very-light-gray);
+    font-weight: 700;
+    font-size: 1.8em;
+    margin: 10% auto 10% auto;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--transparent-white);
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.5em;
+    margin: 10% auto 10% auto;
+}
+
+.sedans {
+    background-color: var(--bright-orange);
+    border-radius: 7px 7px 0 0;
+    
+}
+
+.suvs {
+    background-color: var(--dark-cyan);
+   
+}
+
+.luxury {
+    background-color: var(--very-dark-cyan);
+    border-radius: 0 0 7px 7px;
+    
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+    padding: 12%;
+}
+
+
+button {
+    background-color: var(--very-light-gray);
+    border: none;
+    border-radius: 15px;
+    padding: 9px 15px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.sedans-btn {
+    color: var(--bright-orange);
+}
+
+.suvs-btn {
+    color: var(--dark-cyan);
+}
+
+.luxury-btn {
+    color: var(--very-dark-cyan);
+}
+
+.attribution { 
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 13px; 
+    text-align: center; 
+    margin-top: -3em;
+    padding-bottom: 1em;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (min-width: 450px) {
+    .container {
+        max-width: 320px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .container {
+        margin: 10em auto;
+        grid-template-columns: auto auto auto;
+        max-width: 750px;
+    }
+
+    p {
+        padding-bottom: 2.5em;
+    }
+
+    .sedans {
+        border-radius: 7px 0 0 7px;
+    }
+
+    .luxury {
+        border-radius: 0 7px 7px 0;
+    }
+
+    button {
+        padding: 12px 30px;
+        border-radius: 20px;
+    }
+
+    .attribution {
+        margin-top: -10em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 850px;
+    }
+
+    p {
+        max-width: 80%;
+        margin: auto -0.1em;
+    }
+
+    button {
+        padding: 12px 35px;
+        
+    }
+}
+
